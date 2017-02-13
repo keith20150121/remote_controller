@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Server Info">
+        <EditTextPreference
+            android:key="ip_addr_preference"
+            android:title="Server's IP Address"
+            android:defaultValue="192.168.173.1"
+            android:inputType="text"
+            />
+        <EditTextPreference
+            android:key="port_preference"
+            android:title="Server's Listening Address"
+            android:defaultValue="8080"
+            android:inputType="number"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
